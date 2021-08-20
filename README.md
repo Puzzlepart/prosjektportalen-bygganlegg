@@ -1,6 +1,6 @@
 # Bygg & anlegg tilpasninger for Prosjektportalen
 
-NB: Bygg & anlegg tilpasningene er i en test-fase og det gjenstår fortsatt en del forankringsarbeid. Kom gjerne med innspill!
+NB: Dette et tilpasningene for Prosjektportalen 2. Ser du etter bygg og anlegg-tilpasningene for Prosjektportalen 365? https://github.com/Puzzlepart/prosjektportalen365-bygganlegg
 
 Bygg & anlegg tilpasninger for Prosjektportalen er to valgfrie tilleggspakker som installeres hver for seg på områdesamlinger hvor [Prosjektportalen](https://github.com/Puzzlepart/prosjektportalen) allerede er installert. Etter at tilpasningen er installert kan en opprette områder enten av type bygg eller av type anlegg avhengig av hvilken tilleggspakke som er installert på områdesamlingen. Hvert område er et eget område ganske lik et standard prosjektområde, men det har noen ulikheter
 
@@ -24,13 +24,13 @@ Bygg & anlegg tilpasninger for Prosjektportalen installeres med Powershell på f
 1. [Prosjektportalen](https://github.com/Puzzlepart/prosjektportalen) må være installert. Ved installasjon av Prosjektportalen bør du bruke -SkipData parameteren slik at standard data ikke blir installert. Eksempel:
 
 ```PowerShell
-./Install.ps1 -Url https://puzzlepart.sharepoint.com/sites/bygg -SkipData
+./Install.ps1 -Url "https://puzzlepart.sharepoint.com/sites/bygg" -SkipData
 ```
 
 2. Installer Bygg-tilpasningene (i dette eksempelet) på følgende måte
 
 ```PowerShell
-./Install.ps1 -Url https://puzzlepart.sharepoint.com/sites/bygg -ProjectType Bygg
+./Install.ps1 -Url "https://puzzlepart.sharepoint.com/sites/bygg" -ProjectType Bygg
 ```
 
 ## Kontakt
