@@ -10,7 +10,7 @@
                 </Property>
                 <Property>
                     <Name>TermSetId</Name>
-                    <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:Prosjektportalen:Fase (Anlegg)}</Value>
+                    <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{cc6cdd18-c7d5-42e1-8d19-a336dd78f3f2}</Value>
                 </Property>
             </ArrayOfProperty>
         </Customization>
@@ -26,7 +26,7 @@
                 </Property>
                 <Property>
                     <Name>TermSetId</Name>
-                    <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:Prosjektportalen:Fase (Anlegg)}</Value>
+                    <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{cc6cdd18-c7d5-42e1-8d19-a336dd78f3f2}</Value>
                 </Property>
             </ArrayOfProperty>
         </Customization>
